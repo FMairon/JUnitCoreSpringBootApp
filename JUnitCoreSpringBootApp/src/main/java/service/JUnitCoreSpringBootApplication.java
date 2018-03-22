@@ -12,8 +12,6 @@ public class JUnitCoreSpringBootApplication {
     SpringApplication.run(JUnitCoreSpringBootApplication.class, args);
 
     JUnitCore jUnitCore = new JUnitCore();
-
-    jUnitCore = new JUnitCore();
     Result result = jUnitCore.run(SomeTests.class);
   }
 }
