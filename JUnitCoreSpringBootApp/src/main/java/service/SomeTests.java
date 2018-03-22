@@ -13,12 +13,7 @@ public class SomeTests {
 
   @Test
   public void testSuccess() throws Exception {
+    System.out.println("Test run!");
     assertTrue(true);
   }
-
-  @Test
-  public void testFail() throws Exception {
-    assertTrue(false);
-  }
-
 }
