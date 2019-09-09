@@ -12,6 +12,8 @@ public class JUnitCoreSpringBootApplication {
     SpringApplication.run(JUnitCoreSpringBootApplication.class, args);
 
     JUnitCore jUnitCore = new JUnitCore();
+    // nutzloser Kommentar
+    
     Result result = jUnitCore.run(SomeTests.class);
   }
 }
